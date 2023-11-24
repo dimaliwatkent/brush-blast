@@ -1,2 +1,16 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: #ececec;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  justify-content: end !important;
+}
