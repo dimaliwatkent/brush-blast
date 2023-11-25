@@ -1,6 +1,3 @@
-// Import all of Bootstrap's CSS
-@import "~bootstrap/scss/bootstrap";
-
 body {
   background-color: #ececec;
 }
@@ -15,7 +12,7 @@ body {
   justify-content: end !important;
 }
 
-// Hero section
+/* // Hero section */
 
 .hero-section {
   display: flex;
@@ -28,7 +25,7 @@ body {
   font-weight: 600;
 }
 
-// About Section
+/* // About Section */
 #about .title-text {
   justify-self: center;
 }
