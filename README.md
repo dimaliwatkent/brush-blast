@@ -1,7 +1,10 @@
 # Brush Blast
 
-A fictional website to showcase sketch arts
-This project uses a bootstrap css framework, it showcases the use of bootstrap grid
+A fictional website to showcase sketch arts.This project uses a bootstrap css framework, it showcases the use of bootstrap grid
+
+# Deployment
+
+https://dimaliwatkent.github.io/brush-blast/src/index.html
 
 # Documentation
 
