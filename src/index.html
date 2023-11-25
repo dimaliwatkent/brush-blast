@@ -1,66 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brush Blast</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Brush Blast</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top container-fluid">
+      <div class="container">
+        <a class="navbar-brand nav-brand" href="./index.html">Brush Blast</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top container-fluid">
-    <div class="container">
-      <a class="navbar-brand nav-brand" href="./index.html">Brush Blast</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="nav-right">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./shop.html">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="nav-right">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./explore.html">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <section id="hero">
-    <div class="container hero-section vh-100" style="padding-top: 56px">
-      <div class="row hero-text">
-        <div class="col-12 col-md-7">
-          <h1 class="title-text">Unleashing Creativity</h1>
-          <h3>One Stroke at a Time</h3>
-          <p>
-            Welcome to Brush Blast, your digital gallery of artistic
-            masterpieces. Here, we bring your sketches to life, one stroke at
-            a time. From the rough outlines to the final touches, every sketch
-            tells a story. Explore our collection, and let the magic of
-            creativity guide you through our digital canvas.
-          </p>
-          <a href="./shop.html" class="btn btn-dark">View Arts</a>
-        </div>
-        <div class="col-12 col-md-5">
-          <img src="./assets/hero-pic.png" alt="Hero Section Image" class="img-fluid" />
+    </nav>
+    <section id="hero">
+      <div class="container hero-section vh-100" style="padding-top: 56px">
+        <div class="row hero-text">
+          <div class="col-12 col-md-7">
+            <h1 class="title-text">Unleashing Creativity</h1>
+            <h3>One Stroke at a Time</h3>
+            <p>
+              Welcome to Brush Blast, your digital gallery of artistic
+              masterpieces. Here, we bring your sketches to life, one stroke at
+              a time. From the rough outlines to the final touches, every sketch
+              tells a story. Explore our collection, and let the magic of
+              creativity guide you through our digital canvas.
+            </p>
+            <a href="./shop.html" class="btn btn-dark">View Arts</a>
+          </div>
+          <div class="col-12 col-md-5">
+            <img
+              src="./assets/hero-pic.png"
+              alt="Hero Section Image"
+              class="img-fluid"
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <script type="module" src="./js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
-
+    </section>
+    <script type="module" src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
