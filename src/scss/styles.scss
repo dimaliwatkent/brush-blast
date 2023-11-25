@@ -24,6 +24,11 @@ body {
 .hero-text {
   align-items: center;
 }
-.hero-text h1 {
-font-weight: 600;
+.title-text {
+  font-weight: 600;
+}
+
+// About Section
+#about .title-text {
+  justify-self: center;
 }
