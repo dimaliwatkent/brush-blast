@@ -14,3 +14,16 @@ body {
 .navbar-collapse {
   justify-content: end !important;
 }
+
+// Hero section
+
+.hero-section {
+  display: flex;
+}
+
+.hero-text {
+  align-items: center;
+}
+.hero-text h1 {
+font-weight: 600;
+}
